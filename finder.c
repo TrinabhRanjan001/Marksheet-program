@@ -12,7 +12,7 @@ int main() {
     int rolld,math,science;
     
     char name[100];
-    while (fscanf(red,"Roll - %d name - %s math - %d science - %d",&rolld,name,&math,&science)==4){
+    while (fscanf(red,"Roll - %d name - %s math - %d science - %d\n",&rolld,name,&math,&science)==4){
 
 
              if(roll == rolld){
